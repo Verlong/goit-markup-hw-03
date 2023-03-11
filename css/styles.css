@@ -171,6 +171,19 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.list-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list-display > li {
+  margin-right: 24px;
+}
+
+.section-text {
+  width: 264px;
+}
 /* =================/ABOUT================ */
 
 /* =================TEAM================ */
