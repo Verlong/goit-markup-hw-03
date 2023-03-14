@@ -324,7 +324,6 @@ button {
 }
 .app-card {
   background: #ffffff;
-  /* */
   flex-basis: calc((100% - 48px) / 3);
 }
 
@@ -341,6 +340,7 @@ button {
   padding-top: 32px;
   padding-bottom: 32px;
   border: 1px solid var(--cornflower-color);
+  border-top: none;
 }
 
 /* =================/FILTER================ */
