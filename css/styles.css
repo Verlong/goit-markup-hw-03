@@ -86,9 +86,6 @@ button {
 }
 
 .main-header {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
-
   background-color: var(--white-color);
   border-bottom: 1px solid var(--cornflower-color);
 }
@@ -151,12 +148,6 @@ button {
 .contact:focus {
   color: var(--ocean-color);
 }
-/* .contact-list {
-  display: flex;
-} */
-/* .contact-list .contact-item + .contact-item {
-  margin-left: 40px;
-} */
 
 /* =================/!NAVIGATION!====================== */
 
@@ -164,7 +155,7 @@ button {
 .hero {
   padding-bottom: 188px;
   padding-top: 188px;
-  /* height: 600px; */
+
   background: var(--navy-blue-color);
   text-align: center;
 }
@@ -172,7 +163,6 @@ button {
 .hero-title {
   margin: 0 auto;
   margin-bottom: 48px;
-  /* padding-top: 188px; */
 
   width: 496px;
   font-size: 56px;
@@ -205,9 +195,7 @@ button {
 /* =================/HERO================ */
 
 /* =================ABOUT================ */
-/* .about {
-  margin-top: 120px;
-} */
+
 .hidden-header {
   position: absolute;
   width: 1px;
@@ -244,8 +232,6 @@ button {
 }
 
 .section-text {
-  /* margin-top: 0; */
-
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -339,7 +325,6 @@ button {
   border: 1px solid transparent;
 }
 .app-card {
-  /* background: #ffffff; */
   flex-basis: calc((100% - 48px) / 3);
 }
 
@@ -347,7 +332,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  /* margin-bottom: 120px; */
 }
 
 .app-description {
