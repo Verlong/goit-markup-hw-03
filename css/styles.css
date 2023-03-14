@@ -50,6 +50,7 @@ ol {
 
 button {
   cursor: pointer;
+  border: 0;
 }
 
 .container {
@@ -85,8 +86,8 @@ button {
 }
 
 .main-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 
   background-color: var(--white-color);
   border-bottom: 1px solid var(--cornflower-color);
@@ -99,7 +100,10 @@ button {
 /* =================!NAVIGATION!====================== */
 
 .logo-top {
+  display: block;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   font-family: var(--secondary-font);
   font-style: normal;
@@ -112,6 +116,10 @@ button {
 }
 
 .menu-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -129,6 +137,10 @@ button {
 
 /* =================CONTACTS=============== */
 .contact {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
@@ -173,7 +185,7 @@ button {
   padding: 16px 32px;
 
   font-weight: 500;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--iris-color);
@@ -193,9 +205,9 @@ button {
 /* =================/HERO================ */
 
 /* =================ABOUT================ */
-.about {
+/* .about {
   margin-top: 120px;
-}
+} */
 .hidden-header {
   position: absolute;
   width: 1px;
@@ -232,7 +244,7 @@ button {
 }
 
 .section-text {
-  margin-top: 0;
+  /* margin-top: 0; */
 
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -249,11 +261,13 @@ button {
   margin-right: 24px;
 }
 
-.section-text {
+.list-display > li > .section-text {
   width: 264px;
 }
 /* ======OUR WORK========== */
-
+.our-work {
+  padding-top: 0;
+}
 /* =================/ABOUT================ */
 
 /* =================TEAM================ */
@@ -267,12 +281,9 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.team-photo {
-  margin-bottom: 32px;
-}
 
 .team-description {
-  margin-bottom: 32px;
+  padding: 32px 16px;
 }
 .team-name {
   margin-bottom: 8px;
@@ -293,9 +304,13 @@ button {
 /* =================/TEAM================ */
 
 /* =================FILTER================ */
+.filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .filtered-buttons {
-  margin-top: 96px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 .filter-btn {
@@ -321,17 +336,18 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border: 1px solid transparent;
 }
 .app-card {
-  background: #ffffff;
+  /* background: #ffffff; */
   flex-basis: calc((100% - 48px) / 3);
 }
 
 .filtered-apps {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 120px;
+  gap: 48px 24px;
+  /* margin-bottom: 120px; */
 }
 
 .app-description {
