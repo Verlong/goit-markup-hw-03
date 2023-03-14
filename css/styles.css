@@ -157,10 +157,10 @@ button {
 }
 
 .hero-title {
-  margin-top: 0;
+  margin: 0 auto;
   margin-bottom: 48px;
-  width: 496px;
 
+  width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -195,9 +195,16 @@ button {
   margin-top: 120px;
 }
 .hidden-header {
-  visibility: hidden;
-  margin: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
   padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .section-title {
   margin-top: 0;
@@ -284,6 +291,11 @@ button {
 /* =================/TEAM================ */
 
 /* =================FILTER================ */
+.filtered-buttons {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+
 .filter-btn {
   display: flex;
   align-items: center;
@@ -308,11 +320,25 @@ button {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+.app-card {
+  background: #ffffff;
+  /* */
+  flex-basis: calc((100% - 48px) / 3);
+}
 
 .filtered-apps {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-bottom: 120px;
+}
+
+.app-description {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid var(--cornflower-color);
 }
 
 /* =================/FILTER================ */
@@ -323,7 +349,7 @@ button {
   height: 310px;
 }
 
-.footer > .container {
+.footer-container {
   padding-top: 100px;
   width: 264px;
   flex-wrap: wrap;
