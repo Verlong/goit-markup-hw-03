@@ -341,20 +341,21 @@ button {
   padding-bottom: 32px;
   border: 1px solid var(--cornflower-color);
   border-top: none;
+  color: var(--slate-color);
 }
 
 /* =================/FILTER================ */
 
 /* =================FOOTER================ */
 .footer {
-  background: var(--navy-blue-color);
+  background-color: var(--navy-blue-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
   width: 264px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .footer-about {
